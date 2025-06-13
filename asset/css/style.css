@@ -479,6 +479,60 @@ ul li span {
   background: #e25c09;
 }
 
+/* === PHẦN SỞ THÍCH === */
+.hobby-section {
+  padding: 60px 20px;
+  color: white;
+  text-align: center;
+}
+
+.hobby-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.hobby-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px 20px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hobby-icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+/* Màu icon theo class */
+.hobby-icon.yellow { color: #ffd700; }
+.hobby-icon.pink { color: #ff69b4; }
+.hobby-icon.green { color: #32cd32; }
+.hobby-icon.cyan { color: #00ced1; }
+
+.hobby-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.hobby-card p {
+  font-size: 14px;
+  color: #ddd;
+}
+
+
 .footer {
   background-color: #222;
   color: #fff;
